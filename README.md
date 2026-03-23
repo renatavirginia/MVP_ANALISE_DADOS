@@ -39,11 +39,6 @@ As variaveis cobrem: dados demograficos, comportamento de jogo, indicadores de s
 - O agrupamento **K-Means (K=3)** identificou perfis distintos de jogadores (casuais, moderados e hardcore)
 - A visualizacao **PCA** demonstrou consistencia entre treino e teste, validando a generalizacao
 
-## Como Executar
-
-1. Clique no botao **"Open in Colab"** acima
-2. No Colab, va em **Runtime > Run all** para executar todas as celulas
-3. O dataset e carregado automaticamente do repositorio GitHub
 
 ## Tecnologias
 
@@ -53,11 +48,3 @@ As variaveis cobrem: dados demograficos, comportamento de jogo, indicadores de s
 | Visualizacao | Matplotlib, Seaborn |
 | Machine Learning | Scikit-learn (K-Means, PCA, StandardScaler, MinMaxScaler) |
 
-## Estrutura do Repositorio
-
-```
-├── MVP_Impacto_Jogos_Saude_Mental.ipynb   # Notebook principal
-├── gaming_mental_health_10M_40features.csv # Dataset (100k registros)
-├── Checklist_MVP_Impacto_Jogos_Saude_Mental.pdf # Checklist em PDF
-└── README.md                               # Este arquivo
-```
